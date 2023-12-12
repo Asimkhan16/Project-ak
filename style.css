@@ -1,0 +1,68 @@
+
+.menu{
+  background-color: pink;
+  border: 2px solid black;
+  width: 100%;
+  
+ 
+  overflow: auto;
+  
+}
+
+.menu a{
+  padding: 20px;
+  float: left;
+  font-size: 30px;
+  color: black;
+}
+a:hover{
+  background-color: rebeccapurple;
+}
+
+.form-sec{
+
+  background-color: pink;
+  padding: 35px;
+  height: 60vh;
+  width: 60vh;
+  margin-bottom: 10px;
+  text-align: center;
+}
+P{
+ font-size: 25px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', 
+
+}
+.form label{
+  margin: 20px;
+  display: block;
+ 
+}
+.form input[type="text"],.form input[type="email"],.form input[type="password"],.form input[type="passwords"]{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.btn button[type="submit"]{
+  padding: 10px 20px;
+background-color: rgb(31, 9, 92);
+color: aliceblue;
+margin-top: 10px;
+}
+.btn button:hover{
+  background-color: pink;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 300px;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+  background-color: pink;
+}

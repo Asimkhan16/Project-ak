@@ -66,3 +66,48 @@ td, th {
   padding: 8px;
   background-color: pink;
 }
+img{
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  margin-bottom: 60px;
+}
+img:hover{
+  opacity: 1.0;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown button{
+  background-color: pink;
+  color: black;
+  padding: 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 170px;
+}
+.dropdown-content a {
+color: black;
+padding: 15px 15px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover{
+  background-color: aqua;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.two-d{
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  border: 2px solid black;
+  transform: rotate(30deg);
+}
